@@ -2,8 +2,8 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "deepseek-chat",
-    "base_url": "https://api.deepseek.com",
+    "model": "grok-4.1",
+    "base_url": "https://grok.cqforest.com/",
     "api_key_env": "OPENAI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192
@@ -85,6 +85,6 @@
   },
   "filtering": {
     "ai_score_threshold": 6.0,
-    "time_window_hours": 24
+    "time_window_hours": 12
   }
 }
